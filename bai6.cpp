@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(){
 	float c, m, t,d,tong;
-	d = m - c;
 	scanf("%f %f", &c, &m);
+	d = m - c;
+
 	if(d >= 0 && d < 50){
 		t = 10.000;
 	}else if(d >= 50 && d < 100){
@@ -17,4 +18,4 @@ int main(){
 	tong = d * t;
 	printf("%.2f", tong);
 	return 0;
-}	
+}
